@@ -1,3 +1,28 @@
+-<h1>SVG Animation</h1>
+<h2>Fork and save this CodePen, then complete all of the problems below. For each problem, the SVG canvas and shapes you'll need have been created for you-- you just need to animate!</h2>
+
+<h3>Problem 1</h3>
+<p>Animate the circle on the SVG canvas below so that it travels from the point (10, 25) to the point (190, 25) in 15 seconds.</p>
+<svg width="80%" viewBox="0 0 200 50" style="background-color: navy">
+  <circle cx="10" cy="25" r="10" fill="lightskyblue">
+  <animate attributeName="cx" from="10" to="190" dur="15s"/>
+  <animate attributeName="cy" from="25" to="25" dur="15s"/>
+  </circle>
+</svg>
+
+
+<h3>Problem 2</h3>
+<p>Animate the rectangle on the SVG canvas below so that it travels from the point (0, 0) to the point (190, 40) in 8 seconds.</p>
+<svg width="80%" viewBox="0 0 200 50" style="background-color: white">
+  <rect x="0" y="0" fill="#034082" width="10" height="10">
+  <animate attributeName="x" from="0" to="190" dur="8s"/>
+  <animate attributeName="y" from="0" to="40" dur="8s"/>
+  <rect/>
+</svg>
+
+
+<h3>Problem 3</h3>
+<p>Animate the color of the ellipses on the SVG canvas below. The first ellipse should change from white to navy in 10 seconds. The second ellipse should change from black to blue in 10 seconds. Both animations should repeat over and over indefinitely.</p>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: #3D3D3D">
 
   <ellipse cx="50" cy="25" rx="15" ry="10" fill="white">
@@ -9,6 +34,9 @@
     </ellipse>
 </svg>
 
+
+<h3>Problem 4</h3>
+<p>Animate each of the circles in the canvas below so that they fall to the bottom of the canvas when clicked. When each circle reaches the bottom of the canvas, it should stay there unless clicked again.</p>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: lightskyblue">
 
   <circle cx="10" cy="3" r="3" fill="white">
@@ -28,6 +56,9 @@
   </circle>
 </svg>
 
+
+<h3>Problem 5</h3>
+<p>Animate each of the shapes on the canvas below to slowly turn completely transparent when moused over.</p>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: black">
 
   <rect x="10" y="10" width="20" height="20" fill="white">
@@ -43,6 +74,10 @@
   </polygon>
 </svg>
 
+
+<h3>Problem 6</h3>
+<p>Animate the puppy on the canvas below so that when he is clicked, he swims from the point (10, 20) to the point (180, 20) and then swims back to the point (10, 20).</p>
+
   <svg width="80%" viewBox="0 0 200 50" style="background-color: navy">
   <rect x="0" y="33" width="200" height="17" fill="lightskyblue"/>
   <image x="10" y="20" width="20" height="20" xlink:href="http://media.boingboing.net/wp-content/uploads/2016/01/corgiswimflip.gif">
@@ -50,6 +85,11 @@
     <animate attributeName="x" from="180"  to="10" dur="8s" begin="dogTo.end" fill="freeze"
   </image>
 </svg>
+
+
+<h3>Problem 7</h3>
+<p>Animate the rectangle on the canvas below so that when clicked, it travels around the border of the canvas as follows:</p>
+<p>It should start at the point (0, 0), then move to the point (185, 0), then to the point (185, 35), then back to (0, 0).</p>
 
     <svg width="80%" viewBox="0 0 200 50" style="background-color: black">
 
@@ -66,6 +106,9 @@
 
 </svg>
 
+
+<h3>Problem 8</h3>
+<p>Animate the pupils of the character on the canvas below so that they move smoothly left to right and then right to left. This sequence of two animations should repeat over and over again.</p>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: dodgerblue">
 
   <!--  face  -->
@@ -97,6 +140,9 @@
   <line x1="92" y1="36" x2="108" y2="36" stroke="black" stroke-width="2"/>
 </svg>
 
+
+<h3>Problem 9</h3>
+<p>Animate the image on the canvas below so that it slowly turns from completely transparent to completely opaque, then back to completely transparent. These animations should repeat over and over again.</p>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: black">
 
   <image xlink:href="data:image/jpeg;base64,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" x="75" y="0" width="50" height="50" opacity="0">
@@ -107,6 +153,13 @@
 
     </svg>
 
+
+<h3>Problem 10</h3>
+<p>Animate both the position and the color of the tree in the canvas below, so that it repeats the same pattern over and over again:</p>
+<ol>
+  <li>First, the tree should move a distance of 50 to the right, while changing from its initial color to white.</li>
+  <li>Then, the tree sholuld move back to its original position while changing back to its initial color.</li>
+</ol>
 <svg width="80%" viewBox="0 0 200 50" style="background-color: navy">
 
   <polygon points="100,0 90,15 95,15 85,30 90,30 80,45 120,45 110,30 115,30 105,15 110,15" fill="#B5EDFF">
