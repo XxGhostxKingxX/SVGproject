@@ -1,41 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Chelsea+Market|Josefin+Sans|Open+Sans|Bungee+Inline';
-
 body {
-    background-image: url("http://turbo.designwoop.com/uploads/2012/03/04_free_subtle_textures_blueprint_texture.jpg");
-  min-width: 650px;
-}
-
-h1 {
-  color: white;
-  font-size: 50px;
-  font-family: "Bungee Inline";
-  text-align: center;
-}
-
-h2 {
-  color: #D6F5FF;
-  font-size: 20px;
-  font-family: "Open Sans";
-  max-width: 650px;
-  margin: auto;
-  text-align: center;
-}
-
-h3 {
-  color: white;
-  font-size: 25px;
-  font-family: "Josefin Sans";
-  margin-left: 50px;
-}
-
-p, ol {
-  color: #D6F5FF;
-  font-family: "Open Sans";
-  margin-left: 50px;
-}
-
-svg {
-  background-color: white ;
-  display: block;
-  margin: auto;
+    background-color: black;
+    width: 125%;
 }
